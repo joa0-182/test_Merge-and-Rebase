@@ -37,22 +37,24 @@ img#imagem {
     max-width: 40%;
 }
 
-footer {
-    color: white;
+button {
+    width: 10rem;
+    height: 2.3rem;
+    background-color: #894842;
+    border: none;
+    border-radius: 10px;
+    margin: 30px 0 15px 0;
     font-weight: bold;
+    font-size: 1.1rem;
+    color: white;
     text-align: center;
-    margin-top: 20px;
-    text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.219);
-}
-
-footer > p > a {
-    color: white;
-    text-decoration: none;
-}
-
-footer > p > a:hover {
-    text-decoration: underline white;
+    box-shadow: 3px 3px 6px #40404042;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.161);
     cursor: pointer;
-    color: white;
-    font-size: 1.05em;
+    transition: 0.2s;
+}
+
+button:hover {
+    background-color: #b6615a;
+    transition: 0.5s;
 }
